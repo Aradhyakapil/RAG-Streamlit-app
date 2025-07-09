@@ -99,21 +99,6 @@ A Streamlit-based Retrieval-Augmented Generation (RAG) chatbot that enables user
 
 ---
 
-## 🖥️ Code Structure
-
-```text
-app.py                # Streamlit application entrypoint
-requirements.txt      # Pinned Python dependencies
-
-├── extract.py         # PDF parsing & text extraction functions
-├── chunk.py           # SentenceSplitter-based chunking logic
-├── embed.py           # OpenAI embedding wrapper & FAISS index builder
-├── retrieve.py        # FAISS similarity search & context retrieval
-└── chat.py            # Chat interaction & OpenAI chat completion
-```
-
----
-
 ## 🔄 Extending & Customization
 
 * **Model Variants**
